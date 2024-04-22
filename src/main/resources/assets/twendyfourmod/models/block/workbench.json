@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "twendyfourmod:block/workbench_bottom",
+    "up": "twendyfourmod:block/workbench_top",
+    "north": "twendyfourmod:block/workbench_side_1",
+    "east": "twendyfourmod:block/workbench_side_2",
+    "south": "twendyfourmod:block/workbench_side_1",
+    "west": "twendyfourmod:block/workbench_side_2",
+    "particle": "twendyfourmod:block/workbench_bottom"
+  },
+  "render_type": "solid"
+}

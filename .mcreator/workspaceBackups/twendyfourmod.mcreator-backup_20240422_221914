@@ -1,0 +1,47 @@
+{
+  "mod_elements": [
+    {
+      "name": "Workbench",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "workbench",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/twendyfourmod/models/item/workbench.json",
+          "src/main/java/der/robert/twendyfourmod/block/WorkbenchBlock.java",
+          "src/main/resources/assets/twendyfourmod/models/block/workbench.json",
+          "src/main/resources/assets/twendyfourmod/blockstates/workbench.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "language_map": {
+    "en_us": {
+      "block.twendyfourmod.workbench": "Workbench"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "twendyfourmod",
+    "modName": "Robert\u0027s TwendyFourMod",
+    "version": "1.0.0",
+    "author": "Robert, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.20.4",
+    "modElementsPackage": "der.robert.twendyfourmod"
+  },
+  "mcreatorVersion": 202400110712
+}

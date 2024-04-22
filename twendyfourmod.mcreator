@@ -1,14 +1,74 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Workbench",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "workbench",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/twendyfourmod/models/item/workbench.json",
+          "src/main/java/der/robert/twendyfourmod/block/WorkbenchBlock.java",
+          "src/main/resources/assets/twendyfourmod/models/block/workbench.json",
+          "src/main/resources/assets/twendyfourmod/blockstates/workbench.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WorkbenchRecipe",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "workbench_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/twendyfourmod/recipes/workbench_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "TwendyFourMod",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twendy_four_mod",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Tabs"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.twendyfourmod.workbench": "Workbench",
+      "item_group.twendyfourmod.twendy_four_mod": "24-Mod"
+    }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Tabs",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "twendyfourmod",

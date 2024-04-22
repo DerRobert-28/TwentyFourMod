@@ -25,6 +25,9 @@ import java.util.HashMap;
 import java.util.Collection;
 import java.util.ArrayList;
 
+import der.robert.twendyfourmod.init.TwendyfourmodModItems;
+import der.robert.twendyfourmod.init.TwendyfourmodModBlocks;
+
 @Mod("twendyfourmod")
 public class TwendyfourmodMod {
 	public static final Logger LOGGER = LogManager.getLogger(TwendyfourmodMod.class);
@@ -33,6 +36,10 @@ public class TwendyfourmodMod {
 	public TwendyfourmodMod(IEventBus modEventBus) {
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+
+		TwendyfourmodModBlocks.REGISTRY.register(modEventBus);
+
+		TwendyfourmodModItems.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
